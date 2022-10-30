@@ -63,9 +63,9 @@ export default {
 
     // 5. 监视reacivee定义的一个响应式数据中的某些属性
     // ! 能监听到旧数据了
-    /* watch([() => person.name, () => person.age], (newValue, oldValue) => {
+    watch([() => person.name, () => person.age], (newValue, oldValue) => {
       console.log(newValue, oldValue);
-    }); */
+    });
 
     // 特殊情况
     /* watch(
