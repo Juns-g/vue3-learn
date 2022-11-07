@@ -1,0 +1,21 @@
+.box {
+    display: grid;
+    width: 100%;
+    grid-template-columns: 300px auto 300px;
+}
+
+.left .right .middle {
+    height: 600px;
+}
+
+.left {
+    background-color: gray;
+}
+
+.right {
+    background-color: pink;
+}
+
+.middle {
+    background: skyblue;
+}

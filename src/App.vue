@@ -1,17 +1,23 @@
 <template>
-  <Demo />
-  <!-- <LearnTest /> -->
+  <div class="app">
+    <h1>我是App组件（祖）</h1>
+    <Child />
+  </div>
 </template>
 
 <script>
-import Demo from "./components/Demo.vue";
-// import LearnTest from "./components/LearnTest";
+import Child from "./components/Child";
 export default {
   name: "App",
   components: {
-    Demo,
-    // LearnTest,
+    Child,
   },
-  setup() {},
 };
 </script>
+
+<style scoped>
+.app {
+  background-color: yellowgreen;
+  padding: 10px;
+}
+</style>
